@@ -46,11 +46,12 @@
 /* Header Style */
 .header {
     background-image: url(../images/Chance.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border: 1px solid blue;
 }
+
 .header-content {
     border: 1px solid red;
     color: white;
@@ -70,6 +71,22 @@
 .header-button {
     margin-top: 30px;
     border: 1px solid blue;
+}
+
+.header-changer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-changer span {
+    border-radius: 100%;
+    width: 1%;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgray;
+    cursor: pointer;
 }
 
 /* .one img {
